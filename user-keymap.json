@@ -1,17 +1,10 @@
 [
-	{ "keys": ["i", "i"], "command": "exit_insert_mode",
+	{ "keys": ["ctrl+s"], "command": "toggle_side_bar" },
+	{ "keys": ["k", "j"], "command": "_enter_normal_mode",
+		"args": { "mode": "mode_insert" },
 		"context":
 			[
-				{ "key": "setting.command_mode", "operand": false },
-				{ "key": "setting.is_widget", "operand": false }
+				{ "key": "vi_insert_mode_aware" }
 			]
-	},
-	{ "keys": ["k", "j"], "command": "exit_insert_mode",
-		"context":
-			[
-				{ "key": "setting.command_mode", "operand": false },
-				{ "key": "setting.is_widget", "operand": false }
-			]
-	},
-	{ "keys": ["ctrl+s"], "command": "toggoe_side_bar" }
+	}
 ]
