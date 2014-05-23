@@ -12,4 +12,5 @@ The settings I like to use with Sublime Text 3
 * Git
 * GitGutter
 * SidebarEnhancements
+* Vintageous
 
